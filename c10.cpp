@@ -5,7 +5,7 @@ class Kruh
 {
 private:
     float radius;
-    const float pi = 3.14159265f;
+    const float pi = 3.14159265;
 
 public:
     Kruh() {
@@ -47,3 +47,4 @@ int main()
 
     return 0;
 }
+
