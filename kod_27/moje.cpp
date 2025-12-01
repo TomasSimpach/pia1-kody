@@ -112,7 +112,3 @@ int main() {
     std::cout << "Výsledek uložení: " << outputName << "\n";
     return 0;
 }
-////////////Filtr prvního řádu byl nahrazen filtrem druhého řádu realizovaného pomocí biquad struktury.
-////////////Implementace je založena na diferenční rovnici druhého řádu a využívá dvě zpětné vazby a dvě paměťové proměnné.
-///////////////Koeficienty filtru byly vypočítány pomocí Butterworthovy charakteristiky, která zajišťuje rovnoměrnou přenosovou charakteristiku bez zvlnění v propustném pásmu.
-/////////////Oproti původnímu filtru došlo k výraznému zvýšení strmosti přechodu a selektivity.
